@@ -8,4 +8,4 @@ class CodeExecutor:
         """
         Execute the python file
         """
-        subprocess.call(["python", self.file_name])
+        subprocess.call(["python3", self.file_name])
